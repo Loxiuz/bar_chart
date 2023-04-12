@@ -1,0 +1,11 @@
+.chart {
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  align-items: end;
+}
+
+.bar {
+  background-color: green;
+  height: 100px;
+  outline: 1px solid black;
+}

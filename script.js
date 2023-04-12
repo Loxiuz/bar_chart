@@ -27,7 +27,7 @@ function modifyArray() {
 
 function displayBars() {
   const bars = document.querySelectorAll(".bar");
-  for (let i = 0; i < 40; i++) {
+  for (let i = 0; i < numArray.length; i++) {
     const bar = bars[i];
     bar.style.height = `${numArray[i] * 10}px`;
   }

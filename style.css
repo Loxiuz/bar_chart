@@ -7,5 +7,5 @@
 .bar {
   background-color: green;
   height: 100px;
-  outline: 1px solid black;
+  border-left: 1px solid black;
 }
